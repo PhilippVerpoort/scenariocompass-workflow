@@ -8,7 +8,7 @@
   region: World
   year: 2015
   value: 389.36  # EJ/yr
-  rol: 0.25
+  rtol: 0.25
 - variable: Final Energy
   region: World
   year: 2020
