@@ -1,26 +1,3 @@
-# Historical emissions data from CEDS 2025
-- variable: Emissions|CO2|Energy and Industrial Processes
-  region: World
-  year: 2010
-  value: 33460.1  # Mt CO2/yr
-  rtol: 0.25
-- variable: Emissions|CO2|Energy and Industrial Processes
-  region: World
-  year: 2015
-  value: 35627.3  # Mt CO2/yr
-  rtol: 0.25
-- variable: Emissions|CO2|Energy and Industrial Processes
-  region: World
-  year: 2020
-  value: 35387.1  # Mt CO2/yr
-  rtol: 0.4
-  # value averaged from 2019-2021 to account for COVID: 36874.1  # Mt CO2/yr
-- variable: Emissions|CO2|Energy and Industrial Processes
-  region: World
-  year: 2025
-  value: 39383.5  # Mt CO2/yr
-  rtol: 0.25
-
 # Historical energy data from IEA Energy Balances 2024
 - variable: Final Energy
   region: World
