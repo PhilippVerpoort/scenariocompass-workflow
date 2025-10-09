@@ -1,0 +1,88 @@
+# Historical energy data from IEA Energy Balances 2024
+- variable: Final Energy
+  region: World
+  year: 2010
+  value: 365.04  # EJ/yr
+  rtol: 0.25
+- variable: Final Energy
+  region: World
+  year: 2015
+  value: 389.36  # EJ/yr
+  rtol: 0.25
+- variable: Final Energy
+  region: World
+  year: 2020
+  value: 395.68  # EJ/yr
+  rtol: 0.4
+  # value averaged from 2019-2021 to account for COVID: 411.69  # EJ/yr
+- variable: Final Energy
+  region: World
+  year: 2025
+  value: 439.64  # EJ/yr  # extrapolated from 2020-2025 growth rate
+  rtol: 0.25
+
+- variable: Primary Energy|Coal
+  region: World
+  year: 2010
+  value: 152.46  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Coal
+  region: World
+  year: 2015
+  value: 160.62  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Coal
+  region: World
+  year: 2020
+  value: 157.23  # EJ/yr
+  rtol: 0.4
+  # value averaged from 2019-2021 to account for COVID: 164.30  # EJ/yr
+- variable: Primary Energy|Coal
+  region: World
+  year: 2025
+  value: 182.3  # EJ/yr  # extrapolated from 2020-2025 growth rate
+  rtol: 0.25
+
+- variable: Primary Energy|Gas
+  region: World
+  year: 2010
+  value: 114.49  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Gas
+  region: World
+  year: 2015
+  value: 122.43  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Gas
+  region: World
+  year: 2020
+  value: 137.72  # EJ/yr
+  rtol: 0.4
+  # value averaged from 2019-20?? to account for COVID: 140.36  # EJ/yr
+- variable: Primary Energy|Gas
+  region: World
+  year: 2025
+  value: 138.78  # EJ/yr  # extrapolated from 2020-2025 growth rate
+  rtol: 0.25
+
+- variable: Primary Energy|Oil
+  region: World
+  year: 2010
+  value: 173.69  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Oil
+  region: World
+  year: 2015
+  value: 182.15  # EJ/yr
+  rtol: 0.25
+- variable: Primary Energy|Oil
+  region: World
+  year: 2020
+  value: 173.24  # EJ/yr
+  rtol: 0.4
+  # value averaged from 2019-20?? to account for COVID: 185.11  # EJ/yr
+- variable: Primary Energy|Oil
+  region: World
+  year: 2025
+  value: 202.90  # EJ/yr  # extrapolated from 2020-2025 growth rate
+  rtol: 0.25
